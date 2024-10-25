@@ -34,3 +34,39 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+
+```bash
+#Manual setup
+npm init -y
+#Installing Dependencies
+npm i next react react-dom
+
+# Start the code
+npm run dev
+
+# Normal way to create react project
+# TypeScript: Yes
+# ESLint: No
+# Tailwind: Yes
+# src/ Directory: No
+# App Router: Yes
+# import Allias: No
+npx create-next-app@latest next-react-course-cna
+
+# Create a local DB
+npm i postgres
+
+# Create Local .en file
+touch .env.local
+
+
+
+# add Repo/code to GIT
+git remote add origin git@github.com:mmouhamed/quiz_App.git
+git remote set-url origin git@github.com:mmouhamed/quiz_App.git
+git branch -M main
+git push -u origin main
+
+```
