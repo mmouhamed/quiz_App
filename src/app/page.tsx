@@ -7,13 +7,13 @@ export default function Home() {
       <h1>All Quizzes</h1>
       <ul>
         <li>
-          <Link href="/quiz/1">Quiz 1</Link>
+          <a href="/quiz/1">Quiz 1</a>
         </li>
         <li>
-          <Link href="/quiz/2">Quiz 2</Link>
+          <a href="/quiz/2">Quiz 2</a>
         </li>
         <li>
-          <Link href="/quiz/3">Quiz 3</Link>
+          <a href="/quiz/3">Quiz 3</a>
         </li>
       </ul>
     </section>
